@@ -1,9 +1,10 @@
 import {Outlet} from "react-router-dom"
+import NavBar from "@/components/NavBar"
 
 export default function Layout(){
     return (<>
     
-    <header>hey</header>
+    <header><NavBar/></header>
     <main><Outlet/></main>
     <footer>hi</footer>
     </>)
